@@ -4,36 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código-Fonte / Pré-Formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-    num = int(input('digite um número:'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR.')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I" start=10> <!-- 1 a A I i-->  <!-- start é um parâmetro númerico-->
+        <li>Acordar <!--</li> é opcional-->
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a Faculdad</li>
+        <li>Almoçar</li>
+        <li>Ir para o Trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
 
-    <h2>Citações Simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Lista Não Ordenadas</h2>
+    <ul type="square"> <!-- disc square circle -->
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Alface
+        <li>Manteiga
+        <li>Arroz
+        <li>Feijão
+    </ul>
 
-    <h2>Citações Completas</h2>
-    <p>Segudo Jeff Noble, no seu Livro HTML, XHTML e CSS para leigos:</p>
-    <blockquote cite='https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=en&gbpv=0'>
-        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML nesse capítulo descrevem os blocos de texto.
-    </blockquote>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas
+            <ul type="disc">
+                <li>Clipper</lsquarei>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ul>
+        <li>Novas
+            <ul type="circle">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ul>
+    </ol>
 
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Pc</li>
+            <ul type='square'>
+                <li>Plants vs. Zombies.</li>
+                <li>Avengers</li>
+                <li>Café Mania</li>
+                <li>MegaCity</li>
+            </ul>
+        
+        <li>PlayStation</li>
+            <ul type='square'>
+                <li>Need for Speed</li>
+                <li>GTA</li>
+                <li>Madagascar</li>
+            </ul>
 
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+        <li>Xbox</li>
+            <ul type='square'>
+                <li>Jogos do Kinect</li>
+            </ul>
+
+        <li>NES</li>
+            <ul type='square'>
+                <li>Final Fantasy III</li>
+            </ul>
+
+        <li>GBA</li>
+            <ul type='square'>
+                <li>Final Fantasy</li>
+                    <ul type='circle'>
+                        <li>Final Fantasy I</li>
+                        <li>Final Fantasy II</li>
+                    </ul>
+                <li>Pokemon</li>
+                <li>Zelda</li>
+            </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de sites.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de sites.</dd>
+
+        <dt>JS</dt>
+        <dd>Linguagem de programação para a criação de interatividade de sites.</dd>
+    </dl>
 </body>
 </html>

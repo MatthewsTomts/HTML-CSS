@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * { /* Configurações globais*/
+            height: 100%;
+        }
+
+        body {
+            /* 
+            parâmetros linear-gradiente
+            ângulo: ângulo do dêgrade, é possível utilizar valores como to top, to bottom, to left e to right
+            cores: código das cores a serem utilizadas
+            porcentagem: é possível escolher o quanto cada cor ocupará da tela.
+            */
+            background-image: linear-gradient(45deg, #6F55C3 5%, #C137A7, #E43369, #F46638, #FFCC70);
+            /* mantém a imagem de fundo fixa*/
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>

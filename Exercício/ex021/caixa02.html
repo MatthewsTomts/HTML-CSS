@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        
+        header {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px #0000007e;
+        }
+
+        nav {
+            background-color: #585858;
+            padding: 5px;
+            box-shadow: 2px 2px 4px 1px #00000075;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #afafaf;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: #ff67ff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quod temporibus, minima laborum eveniet, dolores cum quae dolorum inventore exercitationem magnam magni enim doloribus, atque dolore dicta ipsam corrupti iste.</p>
+                <aside>
+                    <p>Arigo escrito por José Canário</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Matheus Farias.</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

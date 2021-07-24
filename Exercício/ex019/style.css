@@ -11,7 +11,7 @@ h1  {
 }
 
 h1#prin {       /* Só é aconselhável usar um elemento por id */
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-align: center;
     background-color: #498a49;
 }

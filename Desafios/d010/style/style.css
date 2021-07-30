@@ -148,7 +148,41 @@ img {
     margin: auto;
 }
 
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin: 0px -20px 15px -20px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+ul abbr {
+    text-decoration: underline;
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
